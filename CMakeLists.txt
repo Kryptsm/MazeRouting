@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.15)
+project(MazeRouting)
+
+set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_FLAGS "-O3 -Wall -Wextra")
+
+foreach (file IN LISTS)
+    configure_file(${file} ${file} COPYONLY)
+endforeach ()
+
+add_executable(MazeRouting main.cpp)
