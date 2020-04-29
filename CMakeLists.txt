@@ -3,8 +3,9 @@ project(MazeRouting)
 
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_FLAGS "-O3 -Wall -Wextra")
+set(output "output.txt")
 
-foreach (file IN LISTS)
+foreach (file IN LISTS output)
     configure_file(${file} ${file} COPYONLY)
 endforeach ()
 
