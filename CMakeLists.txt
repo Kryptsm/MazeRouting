@@ -9,4 +9,4 @@ foreach (file IN LISTS output)
     configure_file(${file} ${file} COPYONLY)
 endforeach ()
 
-add_executable(MazeRouting main.cpp)
+add_executable(MazeRouting main.cpp mainDriver.cpp mainDriver.h LeeAlgorithm.cpp LeeAlgorithm.h Vertex.h)

@@ -80,7 +80,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/samwalsh/Desktop/Algorithms/MazeRouting/LeeAlgorithm.cpp">
+			<Option target="MazeRouting"/>
+		</Unit>
+		<Unit filename="/Users/samwalsh/Desktop/Algorithms/MazeRouting/LeeAlgorithm.h">
+			<Option target="MazeRouting"/>
+		</Unit>
+		<Unit filename="/Users/samwalsh/Desktop/Algorithms/MazeRouting/Vertex.h">
+			<Option target="MazeRouting"/>
+		</Unit>
 		<Unit filename="/Users/samwalsh/Desktop/Algorithms/MazeRouting/main.cpp">
+			<Option target="MazeRouting"/>
+		</Unit>
+		<Unit filename="/Users/samwalsh/Desktop/Algorithms/MazeRouting/mainDriver.cpp">
+			<Option target="MazeRouting"/>
+		</Unit>
+		<Unit filename="/Users/samwalsh/Desktop/Algorithms/MazeRouting/mainDriver.h">
 			<Option target="MazeRouting"/>
 		</Unit>
 		<Unit filename="/Users/samwalsh/Desktop/Algorithms/MazeRouting/CMakeLists.txt">

@@ -11,14 +11,29 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09f6069c-84f0-4b6f-92de-1d1dadf39ab0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
+    <list default="true" id="09f6069c-84f0-4b6f-92de-1d1dadf39ab0" name="Default Changelist" comment="Lee's Algo is working">
+      <change afterPath="$PROJECT_DIR$/LeeAlgorithm.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeeAlgorithm.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vertex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainDriver.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainDriver.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/build.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/build.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MazeRouting.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MazeRouting.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MazeRouting.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MazeRouting.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MazeRouting.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MazeRouting.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MazeRouting.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MazeRouting.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MazeRouting.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MazeRouting.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MazeRouting.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MazeRouting.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MazeRouting.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MazeRouting.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MazeRouting.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MazeRouting.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MazeRouting.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MazeRouting.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/MazeRouting" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/MazeRouting" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/MazeRouting.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/MazeRouting.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
@@ -46,9 +61,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="dynamic.analysis.tools.valgrind" />
   </component>
   <component name="RunManager">
-    <configuration name="MazeRouting" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MazeRouting" TARGET_NAME="MazeRouting" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MazeRouting" RUN_TARGET_NAME="MazeRouting">
+    <configuration name="MazeRouting" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-Wall" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MazeRouting" TARGET_NAME="MazeRouting" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MazeRouting" RUN_TARGET_NAME="MazeRouting">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -76,29 +92,86 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588189632952</updated>
-      <workItem from="1588189634791" duration="655000" />
+      <workItem from="1588189634791" duration="19934000" />
     </task>
+    <task id="LOCAL-00001" summary="Added output functionality">
+      <created>1588190371575</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588190371575</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added output functionality" />
+    <MESSAGE value="Lee's Algo is working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lee's Algo is working" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1588190332394">
+    <state x="2104" y="300" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588198064486">
       <screen x="1680" y="110" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.bottom/1680.110.1920.1057/0.23.1680.952@1680.110.1920.1057" timestamp="1588190332394" />
-    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1588190332393">
+    <state x="2104" y="300" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.110.1920.1057/0.23.1680.952@1680.110.1920.1057" timestamp="1588198064486" />
+    <state x="2453" y="361" key="#com.intellij.ide.util.MemberChooser" timestamp="1588203736470">
       <screen x="1680" y="110" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.center/1680.110.1920.1057/0.23.1680.952@1680.110.1920.1057" timestamp="1588190332393" />
-    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1588190332392">
+    <state x="2453" y="361" key="#com.intellij.ide.util.MemberChooser/1680.110.1920.1057/0.23.1680.952@1680.110.1920.1057" timestamp="1588203736470" />
+    <state x="2251" y="241" key="CommitChangelistDialog2" timestamp="1588208398457">
       <screen x="1680" y="110" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.left/1680.110.1920.1057/0.23.1680.952@1680.110.1920.1057" timestamp="1588190332392" />
-    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1588190332393">
+    <state x="2251" y="241" key="CommitChangelistDialog2/1680.110.1920.1057/0.23.1680.952@1680.110.1920.1057" timestamp="1588208398457" />
+    <state width="1638" height="254" key="GridCell.Tab.0.bottom" timestamp="1588211672763">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state width="1638" height="254" key="GridCell.Tab.0.bottom/0.23.1680.952@0.23.1680.952" timestamp="1588211672763" />
+    <state width="1878" height="351" key="GridCell.Tab.0.bottom/1680.110.1920.1057/0.23.1680.952@1680.110.1920.1057" timestamp="1588207566050" />
+    <state width="1638" height="254" key="GridCell.Tab.0.center" timestamp="1588211672762">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state width="1638" height="254" key="GridCell.Tab.0.center/0.23.1680.952@0.23.1680.952" timestamp="1588211672762" />
+    <state width="1878" height="351" key="GridCell.Tab.0.center/1680.110.1920.1057/0.23.1680.952@1680.110.1920.1057" timestamp="1588207566049" />
+    <state width="1638" height="254" key="GridCell.Tab.0.left" timestamp="1588211672762">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state width="1638" height="254" key="GridCell.Tab.0.left/0.23.1680.952@0.23.1680.952" timestamp="1588211672762" />
+    <state width="1878" height="351" key="GridCell.Tab.0.left/1680.110.1920.1057/0.23.1680.952@1680.110.1920.1057" timestamp="1588207566049" />
+    <state width="1638" height="254" key="GridCell.Tab.0.right" timestamp="1588211672762">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state width="1638" height="254" key="GridCell.Tab.0.right/0.23.1680.952@0.23.1680.952" timestamp="1588211672762" />
+    <state width="1878" height="351" key="GridCell.Tab.0.right/1680.110.1920.1057/0.23.1680.952@1680.110.1920.1057" timestamp="1588207566050" />
+    <state width="1878" height="357" key="GridCell.Tab.1.bottom" timestamp="1588205568025">
       <screen x="1680" y="110" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.right/1680.110.1920.1057/0.23.1680.952@1680.110.1920.1057" timestamp="1588190332393" />
+    <state width="1878" height="357" key="GridCell.Tab.1.bottom/1680.110.1920.1057/0.23.1680.952@1680.110.1920.1057" timestamp="1588205568025" />
+    <state width="1878" height="357" key="GridCell.Tab.1.center" timestamp="1588205568025">
+      <screen x="1680" y="110" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="357" key="GridCell.Tab.1.center/1680.110.1920.1057/0.23.1680.952@1680.110.1920.1057" timestamp="1588205568025" />
+    <state width="1878" height="357" key="GridCell.Tab.1.left" timestamp="1588205568025">
+      <screen x="1680" y="110" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="357" key="GridCell.Tab.1.left/1680.110.1920.1057/0.23.1680.952@1680.110.1920.1057" timestamp="1588205568025" />
+    <state width="1878" height="357" key="GridCell.Tab.1.right" timestamp="1588205568025">
+      <screen x="1680" y="110" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="357" key="GridCell.Tab.1.right/1680.110.1920.1057/0.23.1680.952@1680.110.1920.1057" timestamp="1588205568025" />
+    <state x="2149" y="277" key="SettingsEditor" timestamp="1588198033642">
+      <screen x="1680" y="110" width="1920" height="1057" />
+    </state>
+    <state x="2149" y="277" key="SettingsEditor/1680.110.1920.1057/0.23.1680.952@1680.110.1920.1057" timestamp="1588198033642" />
+    <state x="2240" y="378" key="Vcs.Push.Dialog.v2" timestamp="1588190374537">
+      <screen x="1680" y="110" width="1920" height="1057" />
+    </state>
+    <state x="2240" y="378" key="Vcs.Push.Dialog.v2/1680.110.1920.1057/0.23.1680.952@1680.110.1920.1057" timestamp="1588190374537" />
+    <state x="2402" y="276" key="refactoring.ChangeSignatureDialog" timestamp="1588203722881">
+      <screen x="1680" y="110" width="1920" height="1057" />
+    </state>
+    <state x="2402" y="276" key="refactoring.ChangeSignatureDialog/1680.110.1920.1057/0.23.1680.952@1680.110.1920.1057" timestamp="1588203722881" />
   </component>
 </project>

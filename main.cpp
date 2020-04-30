@@ -1,14 +1,12 @@
 #include <iostream>
 #include <fstream>
+#include "mainDriver.h"
 
 using namespace  std;
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    ofstream output;
-
-    output.open("output.txt");
-    output << "Hello, World!" << endl;
+    mainDriver program(3);
+    program.go();
 
     return 0;
 }

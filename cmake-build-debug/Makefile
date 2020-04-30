@@ -123,6 +123,33 @@ MazeRouting/fast:
 	$(MAKE) -f CMakeFiles/MazeRouting.dir/build.make CMakeFiles/MazeRouting.dir/build
 .PHONY : MazeRouting/fast
 
+LeeAlgorithm.o: LeeAlgorithm.cpp.o
+
+.PHONY : LeeAlgorithm.o
+
+# target to build an object file
+LeeAlgorithm.cpp.o:
+	$(MAKE) -f CMakeFiles/MazeRouting.dir/build.make CMakeFiles/MazeRouting.dir/LeeAlgorithm.cpp.o
+.PHONY : LeeAlgorithm.cpp.o
+
+LeeAlgorithm.i: LeeAlgorithm.cpp.i
+
+.PHONY : LeeAlgorithm.i
+
+# target to preprocess a source file
+LeeAlgorithm.cpp.i:
+	$(MAKE) -f CMakeFiles/MazeRouting.dir/build.make CMakeFiles/MazeRouting.dir/LeeAlgorithm.cpp.i
+.PHONY : LeeAlgorithm.cpp.i
+
+LeeAlgorithm.s: LeeAlgorithm.cpp.s
+
+.PHONY : LeeAlgorithm.s
+
+# target to generate assembly for a file
+LeeAlgorithm.cpp.s:
+	$(MAKE) -f CMakeFiles/MazeRouting.dir/build.make CMakeFiles/MazeRouting.dir/LeeAlgorithm.cpp.s
+.PHONY : LeeAlgorithm.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -150,6 +177,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/MazeRouting.dir/build.make CMakeFiles/MazeRouting.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+mainDriver.o: mainDriver.cpp.o
+
+.PHONY : mainDriver.o
+
+# target to build an object file
+mainDriver.cpp.o:
+	$(MAKE) -f CMakeFiles/MazeRouting.dir/build.make CMakeFiles/MazeRouting.dir/mainDriver.cpp.o
+.PHONY : mainDriver.cpp.o
+
+mainDriver.i: mainDriver.cpp.i
+
+.PHONY : mainDriver.i
+
+# target to preprocess a source file
+mainDriver.cpp.i:
+	$(MAKE) -f CMakeFiles/MazeRouting.dir/build.make CMakeFiles/MazeRouting.dir/mainDriver.cpp.i
+.PHONY : mainDriver.cpp.i
+
+mainDriver.s: mainDriver.cpp.s
+
+.PHONY : mainDriver.s
+
+# target to generate assembly for a file
+mainDriver.cpp.s:
+	$(MAKE) -f CMakeFiles/MazeRouting.dir/build.make CMakeFiles/MazeRouting.dir/mainDriver.cpp.s
+.PHONY : mainDriver.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +213,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... MazeRouting"
+	@echo "... LeeAlgorithm.o"
+	@echo "... LeeAlgorithm.i"
+	@echo "... LeeAlgorithm.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... mainDriver.o"
+	@echo "... mainDriver.i"
+	@echo "... mainDriver.s"
 .PHONY : help
 
 
