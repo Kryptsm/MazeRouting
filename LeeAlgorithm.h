@@ -4,6 +4,7 @@
 #include <iostream>
 #include <fstream>
 #include <list>
+#include <vector>
 #include "Vertex.h"
 
 using namespace std;
