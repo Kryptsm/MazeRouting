@@ -12,14 +12,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09f6069c-84f0-4b6f-92de-1d1dadf39ab0" name="Default Changelist" comment="Running all mazes with time data into an output file">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/build.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/build.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeeAlgorithm.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LeeAlgorithm.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeeAlgorithm.h" beforeDir="false" afterPath="$PROJECT_DIR$/LeeAlgorithm.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/MazeRouting" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/MazeRouting" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MazeRouting.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MazeRouting.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MazeRouting.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MazeRouting.dir/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainDriver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/mainDriver.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainDriver.h" beforeDir="false" afterPath="$PROJECT_DIR$/mainDriver.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1588189632952</updated>
       <workItem from="1588189634791" duration="21180000" />
-      <workItem from="1588256949638" duration="8632000" />
+      <workItem from="1588256949638" duration="8875000" />
     </task>
     <task id="LOCAL-00001" summary="Added output functionality">
       <created>1588190371575</created>
@@ -106,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588211962560</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Running all mazes with time data into an output file">
+      <created>1588269560704</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1588269560705</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,31 +135,35 @@
       <screen x="1680" y="110" width="1920" height="1057" />
     </state>
     <state x="2453" y="361" key="#com.intellij.ide.util.MemberChooser/1680.110.1920.1057/0.23.1680.952@1680.110.1920.1057" timestamp="1588258625470" />
-    <state x="2251" y="241" key="CommitChangelistDialog2" timestamp="1588269435027">
+    <state x="2251" y="241" key="CommitChangelistDialog2" timestamp="1588269724854">
       <screen x="1680" y="110" width="1920" height="1057" />
     </state>
     <state x="500" y="141" key="CommitChangelistDialog2/0.23.1680.952@0.23.1680.952" timestamp="1588211962417" />
-    <state x="2251" y="241" key="CommitChangelistDialog2/1680.110.1920.1057/0.23.1680.952@1680.110.1920.1057" timestamp="1588269435027" />
-    <state width="1878" height="28" key="GridCell.Tab.0.bottom" timestamp="1588269509426">
+    <state x="2251" y="241" key="CommitChangelistDialog2/1680.110.1920.1057/0.23.1680.952@1680.110.1920.1057" timestamp="1588269724854" />
+    <state x="1968" y="247" key="DiffContextDialog" timestamp="1588269686688">
+      <screen x="1680" y="110" width="1920" height="1057" />
+    </state>
+    <state x="1968" y="247" key="DiffContextDialog/1680.110.1920.1057/0.23.1680.952@1680.110.1920.1057" timestamp="1588269686688" />
+    <state width="1878" height="28" key="GridCell.Tab.0.bottom" timestamp="1588269779858">
       <screen x="1680" y="110" width="1920" height="1057" />
     </state>
     <state width="1638" height="254" key="GridCell.Tab.0.bottom/0.23.1680.952@0.23.1680.952" timestamp="1588211928744" />
-    <state width="1878" height="28" key="GridCell.Tab.0.bottom/1680.110.1920.1057/0.23.1680.952@1680.110.1920.1057" timestamp="1588269509426" />
-    <state width="1878" height="28" key="GridCell.Tab.0.center" timestamp="1588269509425">
+    <state width="1878" height="28" key="GridCell.Tab.0.bottom/1680.110.1920.1057/0.23.1680.952@1680.110.1920.1057" timestamp="1588269779858" />
+    <state width="1878" height="28" key="GridCell.Tab.0.center" timestamp="1588269779857">
       <screen x="1680" y="110" width="1920" height="1057" />
     </state>
     <state width="1638" height="254" key="GridCell.Tab.0.center/0.23.1680.952@0.23.1680.952" timestamp="1588211928743" />
-    <state width="1878" height="28" key="GridCell.Tab.0.center/1680.110.1920.1057/0.23.1680.952@1680.110.1920.1057" timestamp="1588269509425" />
-    <state width="1878" height="28" key="GridCell.Tab.0.left" timestamp="1588269509425">
+    <state width="1878" height="28" key="GridCell.Tab.0.center/1680.110.1920.1057/0.23.1680.952@1680.110.1920.1057" timestamp="1588269779857" />
+    <state width="1878" height="28" key="GridCell.Tab.0.left" timestamp="1588269779856">
       <screen x="1680" y="110" width="1920" height="1057" />
     </state>
     <state width="1638" height="254" key="GridCell.Tab.0.left/0.23.1680.952@0.23.1680.952" timestamp="1588211928743" />
-    <state width="1878" height="28" key="GridCell.Tab.0.left/1680.110.1920.1057/0.23.1680.952@1680.110.1920.1057" timestamp="1588269509425" />
-    <state width="1878" height="28" key="GridCell.Tab.0.right" timestamp="1588269509426">
+    <state width="1878" height="28" key="GridCell.Tab.0.left/1680.110.1920.1057/0.23.1680.952@1680.110.1920.1057" timestamp="1588269779856" />
+    <state width="1878" height="28" key="GridCell.Tab.0.right" timestamp="1588269779857">
       <screen x="1680" y="110" width="1920" height="1057" />
     </state>
     <state width="1638" height="254" key="GridCell.Tab.0.right/0.23.1680.952@0.23.1680.952" timestamp="1588211928744" />
-    <state width="1878" height="28" key="GridCell.Tab.0.right/1680.110.1920.1057/0.23.1680.952@1680.110.1920.1057" timestamp="1588269509426" />
+    <state width="1878" height="28" key="GridCell.Tab.0.right/1680.110.1920.1057/0.23.1680.952@1680.110.1920.1057" timestamp="1588269779857" />
     <state width="1878" height="357" key="GridCell.Tab.1.bottom" timestamp="1588268614410">
       <screen x="1680" y="110" width="1920" height="1057" />
     </state>
@@ -176,11 +184,11 @@
       <screen x="1680" y="110" width="1920" height="1057" />
     </state>
     <state x="2149" y="277" key="SettingsEditor/1680.110.1920.1057/0.23.1680.952@1680.110.1920.1057" timestamp="1588198033642" />
-    <state x="490" y="264" key="Vcs.Push.Dialog.v2" timestamp="1588211974715">
-      <screen x="0" y="23" width="1680" height="952" />
+    <state x="2240" y="378" key="Vcs.Push.Dialog.v2" timestamp="1588269566502">
+      <screen x="1680" y="110" width="1920" height="1057" />
     </state>
     <state x="490" y="264" key="Vcs.Push.Dialog.v2/0.23.1680.952@0.23.1680.952" timestamp="1588211974715" />
-    <state x="2240" y="378" key="Vcs.Push.Dialog.v2/1680.110.1920.1057/0.23.1680.952@1680.110.1920.1057" timestamp="1588190374537" />
+    <state x="2240" y="378" key="Vcs.Push.Dialog.v2/1680.110.1920.1057/0.23.1680.952@1680.110.1920.1057" timestamp="1588269566502" />
     <state x="517" y="331" key="com.intellij.ide.util.TipDialog" timestamp="1588257022347">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
