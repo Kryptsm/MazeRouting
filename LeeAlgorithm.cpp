@@ -6,6 +6,8 @@
 #include "LeeAlgorithm.h"
 #include "Vertex.h"
 #include <vector>
+#include <string>
+#include <cstring>
 
 //retrieves all necessary information and sets it where necessary
 LeeAlgorithm::LeeAlgorithm(int numberOfColumns, int numberOfRows, string **newMaze, string **mazeToSearch,

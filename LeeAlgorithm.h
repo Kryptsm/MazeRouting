@@ -5,6 +5,8 @@
 #include <fstream>
 #include <list>
 #include <vector>
+#include <string>
+#include <cstring>
 #include "Vertex.h"
 
 using namespace std;

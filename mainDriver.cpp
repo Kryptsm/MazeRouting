@@ -4,6 +4,7 @@
 
 #include "mainDriver.h"
 #include <string>
+#include <cstring>
 
 mainDriver::mainDriver(int mazeVersion) {
     Maze = nullptr;

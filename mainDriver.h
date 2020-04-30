@@ -4,6 +4,7 @@
 #include <iostream>
 #include <fstream>
 #include "LeeAlgorithm.h"
+#include <cstring>
 
 using namespace std;
 

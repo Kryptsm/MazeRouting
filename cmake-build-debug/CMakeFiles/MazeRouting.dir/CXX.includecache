@@ -6,12 +6,30 @@
 
 #IncludeRegexTransform: 
 
+/Users/samwalsh/Desktop/Algorithms/MazeRouting/LeeAlgorithm.cpp
+LeeAlgorithm.h
+/Users/samwalsh/Desktop/Algorithms/MazeRouting/LeeAlgorithm.h
+Vertex.h
+/Users/samwalsh/Desktop/Algorithms/MazeRouting/Vertex.h
+vector
+-
+string
+-
+cstring
+-
+
 /Users/samwalsh/Desktop/Algorithms/MazeRouting/LeeAlgorithm.h
 iostream
 -
 fstream
 -
 list
+-
+vector
+-
+string
+-
+cstring
 -
 Vertex.h
 /Users/samwalsh/Desktop/Algorithms/MazeRouting/Vertex.h
@@ -26,6 +44,14 @@ fstream
 mainDriver.h
 /Users/samwalsh/Desktop/Algorithms/MazeRouting/mainDriver.h
 
+/Users/samwalsh/Desktop/Algorithms/MazeRouting/mainDriver.cpp
+mainDriver.h
+/Users/samwalsh/Desktop/Algorithms/MazeRouting/mainDriver.h
+string
+-
+cstring
+-
+
 /Users/samwalsh/Desktop/Algorithms/MazeRouting/mainDriver.h
 iostream
 -
@@ -33,4 +59,6 @@ fstream
 -
 LeeAlgorithm.h
 /Users/samwalsh/Desktop/Algorithms/MazeRouting/LeeAlgorithm.h
+cstring
+-
 
