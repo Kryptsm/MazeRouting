@@ -29,15 +29,17 @@ private:
 
 
 public:
-    explicit mainDriver(int mazeVersion);
+    explicit mainDriver();
 
-    void go();
+    void go(int mazeVersion);
 
     void printMaze();
 
     void printDataMaze();
 
     void createMazes();
+
+    void chooseVersion(int mazeVersion);
 
 };
 

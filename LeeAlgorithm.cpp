@@ -51,11 +51,15 @@ int LeeAlgorithm::performSearch() {
 
         //increases the level
         currentAdditive++;
-        printProgress();
+    }
+    Vertex currentVertex = endVertex;
+
+    //backtracks all the way back from the end node to the start node, going in descending order of
+    //vertex distance values
+    for (int x = (currentAdditive - 1); x > 1; x--) {
+        currentVertex = backtrackLevel(x, currentVertex);
     }
 
-    cout << "Current Additive: " << currentAdditive << endl;
-    cout << "The end has been found." << endl;
     return currentAdditive - 1;
 
 }
@@ -114,32 +118,44 @@ bool LeeAlgorithm::addWave(vector<Vertex> *vertexList, int indexX, int indexY, i
     return false;
 }
 
-//prints the maze as is current, which shows all the wave information
-void LeeAlgorithm::printProgress() {
-    cout << endl << "Maze: " << endl;
-    for (int x = 0; x < numColumns; x++) {
-        cout << "---";
-    }
-    cout << "----" << endl;
+//this function will pass in a vertex and a current level, and then mark the next lowest value vertex around
+//it as part of the path and return it. So we will be able to start at the end and work our way back to zero.
+Vertex LeeAlgorithm::backtrackLevel(int currentLevel, Vertex currentVertex) {
+    int currentX = currentVertex.getPositionX();
+    int currentY = currentVertex.getPositionY();
+    string tempHolder = to_string(currentLevel - 1);
 
-    for (int x = 0; x < numRows; x++) {
-        cout << "| ";
-        for (int y = 0; y < numColumns; y++)
-            if (strcmp(Maze[x][y].c_str(), "O") == 0)
-                cout << "   ";
-            else {
-                if (Maze[x][y].size() == 1)
-                    cout << " " << Maze[x][y] << " ";
-                else if (Maze[x][y].size() == 2)
-                    cout << " " << Maze[x][y];
-                else
-                    cout << Maze[x][y];
-            }
-        cout << " |" << endl;
+    //checks for the next level down after our current level
+    if (currentY != 0) {
+        if (Maze[currentX][currentY - 1] == tempHolder) {
+            FinalMaze[currentX][currentY - 1] = "+";
+            Vertex temp(currentX, currentY - 1, 0);
+            return temp;
+        }
     }
-
-    for (int x = 0; x < numColumns; x++) {
-        cout << "---";
+    //checks the vertex above
+    if (currentX != 0) {
+        if (Maze[currentX - 1][currentY] == tempHolder) {
+            FinalMaze[currentX - 1][currentY] = "+";
+            Vertex temp(currentX - 1, currentY, 0);
+            return temp;
+        }
     }
-    cout << "----" << endl;
+    //checks the vertex under the current
+    if (currentX != (numRows - 1)) {
+        if (Maze[currentX + 1][currentY] == tempHolder) {
+            FinalMaze[currentX + 1][currentY] = "+";
+            Vertex temp(currentX + 1, currentY, 0);
+            return temp;
+        }
+    }
+    //checks the vertex to the right
+    if (currentY != (numColumns - 1)) {
+        if (Maze[currentX][currentY + 1] == tempHolder) {
+            FinalMaze[currentX][currentY + 1] = "+";
+            Vertex temp(currentX, currentY + 1, 0);
+            return temp;
+        }
+    }
+    return currentVertex;
 }
