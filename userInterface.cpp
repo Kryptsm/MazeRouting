@@ -13,8 +13,8 @@ void userInterface::initiate() {
     bool gitHub = true;
 
     if (gitHub) {
-        program.go(6, 1);
-        program.go(6, 2);
+        program.go(5, 1);
+        program.go(5, 2);
         return;
     }
 
