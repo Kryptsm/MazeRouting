@@ -9,9 +9,21 @@
 using namespace std;
 
 void userInterface::initiate() {
+    mainDriver program;
+    bool gitHub = true;
+
+    if (gitHub) {
+        program.go(6, 1);
+        program.go(6, 2);
+        return;
+    }
+
     int mazeOption = getMazeOption();
     int algoOption = getAlgoOption();
-    mainDriver program;
+
+
+    //just so that the UI doesnt run on github
+
 
     if (algoOption != 3)
         program.go(mazeOption, algoOption);
