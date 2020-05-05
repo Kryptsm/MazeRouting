@@ -5,6 +5,8 @@
 #ifndef MAZEROUTING_VERTEX_H
 #define MAZEROUTING_VERTEX_H
 
+#include <ostream>
+
 class Vertex {
 private:
     int positionX;
@@ -52,6 +54,11 @@ public:
 
     bool operator!=(const Vertex &rhs) const {
         return !(rhs == *this);
+    }
+
+    friend std::ostream &operator<<(std::ostream &os, const Vertex &vertex) {
+        os << "(" << vertex.positionX << ", " << vertex.positionY << ")";
+        return os;
     }
 };
 

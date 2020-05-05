@@ -150,6 +150,33 @@ LeeAlgorithm.cpp.s:
 	$(MAKE) -f CMakeFiles/MazeRouting.dir/build.make CMakeFiles/MazeRouting.dir/LeeAlgorithm.cpp.s
 .PHONY : LeeAlgorithm.cpp.s
 
+RecursiveBacktracking.o: RecursiveBacktracking.cpp.o
+
+.PHONY : RecursiveBacktracking.o
+
+# target to build an object file
+RecursiveBacktracking.cpp.o:
+	$(MAKE) -f CMakeFiles/MazeRouting.dir/build.make CMakeFiles/MazeRouting.dir/RecursiveBacktracking.cpp.o
+.PHONY : RecursiveBacktracking.cpp.o
+
+RecursiveBacktracking.i: RecursiveBacktracking.cpp.i
+
+.PHONY : RecursiveBacktracking.i
+
+# target to preprocess a source file
+RecursiveBacktracking.cpp.i:
+	$(MAKE) -f CMakeFiles/MazeRouting.dir/build.make CMakeFiles/MazeRouting.dir/RecursiveBacktracking.cpp.i
+.PHONY : RecursiveBacktracking.cpp.i
+
+RecursiveBacktracking.s: RecursiveBacktracking.cpp.s
+
+.PHONY : RecursiveBacktracking.s
+
+# target to generate assembly for a file
+RecursiveBacktracking.cpp.s:
+	$(MAKE) -f CMakeFiles/MazeRouting.dir/build.make CMakeFiles/MazeRouting.dir/RecursiveBacktracking.cpp.s
+.PHONY : RecursiveBacktracking.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -204,6 +231,33 @@ mainDriver.cpp.s:
 	$(MAKE) -f CMakeFiles/MazeRouting.dir/build.make CMakeFiles/MazeRouting.dir/mainDriver.cpp.s
 .PHONY : mainDriver.cpp.s
 
+userInterface.o: userInterface.cpp.o
+
+.PHONY : userInterface.o
+
+# target to build an object file
+userInterface.cpp.o:
+	$(MAKE) -f CMakeFiles/MazeRouting.dir/build.make CMakeFiles/MazeRouting.dir/userInterface.cpp.o
+.PHONY : userInterface.cpp.o
+
+userInterface.i: userInterface.cpp.i
+
+.PHONY : userInterface.i
+
+# target to preprocess a source file
+userInterface.cpp.i:
+	$(MAKE) -f CMakeFiles/MazeRouting.dir/build.make CMakeFiles/MazeRouting.dir/userInterface.cpp.i
+.PHONY : userInterface.cpp.i
+
+userInterface.s: userInterface.cpp.s
+
+.PHONY : userInterface.s
+
+# target to generate assembly for a file
+userInterface.cpp.s:
+	$(MAKE) -f CMakeFiles/MazeRouting.dir/build.make CMakeFiles/MazeRouting.dir/userInterface.cpp.s
+.PHONY : userInterface.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -216,12 +270,18 @@ help:
 	@echo "... LeeAlgorithm.o"
 	@echo "... LeeAlgorithm.i"
 	@echo "... LeeAlgorithm.s"
+	@echo "... RecursiveBacktracking.o"
+	@echo "... RecursiveBacktracking.i"
+	@echo "... RecursiveBacktracking.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
 	@echo "... mainDriver.o"
 	@echo "... mainDriver.i"
 	@echo "... mainDriver.s"
+	@echo "... userInterface.o"
+	@echo "... userInterface.i"
+	@echo "... userInterface.s"
 .PHONY : help
 
 

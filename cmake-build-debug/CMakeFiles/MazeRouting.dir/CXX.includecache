@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+/Users/samwalsh/Desktop/Algorithms/MazeRouting/LeeAlgorithm.cpp
+LeeAlgorithm.h
+/Users/samwalsh/Desktop/Algorithms/MazeRouting/LeeAlgorithm.h
+Vertex.h
+/Users/samwalsh/Desktop/Algorithms/MazeRouting/Vertex.h
+vector
+-
+string
+-
+cstring
+-
+
 /Users/samwalsh/Desktop/Algorithms/MazeRouting/LeeAlgorithm.h
 iostream
 -
@@ -22,25 +34,39 @@ cstring
 Vertex.h
 /Users/samwalsh/Desktop/Algorithms/MazeRouting/Vertex.h
 
-/Users/samwalsh/Desktop/Algorithms/MazeRouting/Vertex.h
-
-/Users/samwalsh/Desktop/Algorithms/MazeRouting/mainDriver.cpp
-mainDriver.h
-/Users/samwalsh/Desktop/Algorithms/MazeRouting/mainDriver.h
+/Users/samwalsh/Desktop/Algorithms/MazeRouting/RecursiveBacktracking.cpp
+RecursiveBacktracking.h
+/Users/samwalsh/Desktop/Algorithms/MazeRouting/RecursiveBacktracking.h
+iostream
+-
+list
+-
+stack
+-
+vector
+-
 string
 -
 cstring
 -
-chrono
--
+Vertex.h
+/Users/samwalsh/Desktop/Algorithms/MazeRouting/Vertex.h
 
-/Users/samwalsh/Desktop/Algorithms/MazeRouting/mainDriver.h
-iostream
+/Users/samwalsh/Desktop/Algorithms/MazeRouting/RecursiveBacktracking.h
+list
 -
-fstream
+stack
 -
-LeeAlgorithm.h
-/Users/samwalsh/Desktop/Algorithms/MazeRouting/LeeAlgorithm.h
+vector
+-
+string
+-
 cstring
+-
+Vertex.h
+/Users/samwalsh/Desktop/Algorithms/MazeRouting/Vertex.h
+
+/Users/samwalsh/Desktop/Algorithms/MazeRouting/Vertex.h
+ostream
 -
 

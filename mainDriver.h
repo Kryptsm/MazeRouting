@@ -4,6 +4,7 @@
 #include <iostream>
 #include <fstream>
 #include "LeeAlgorithm.h"
+#include "RecursiveBacktracking.h"
 #include <cstring>
 
 using namespace std;
@@ -26,12 +27,13 @@ private:
     string **Maze;
     string **MazeForSearch;
     LeeAlgorithm *LeeAlgo;
+    RecursiveBacktracking *Recur;
 
 
 public:
     explicit mainDriver();
 
-    void go(int mazeVersion);
+    void go(int mazeVersion, int chooseOption);
 
     void printMaze();
 

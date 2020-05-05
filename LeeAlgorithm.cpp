@@ -12,10 +12,14 @@
 //retrieves all necessary information and sets it where necessary
 LeeAlgorithm::LeeAlgorithm(int numberOfColumns, int numberOfRows, string **newMaze, string **mazeToSearch,
                            int startPosX, int startPosY, int endPosX, int endPosY) {
+    //initializes all the information we need for the algorithm
+    //for printing and out of bounds purposes
     numColumns = numberOfColumns;
     numRows = numberOfRows;
+    //both mazes, one to add the information into and one to put the path onto
     FinalMaze = newMaze;
     Maze = mazeToSearch;
+    //adds the indexes of the start and end
     startX = startPosX, startY = startPosY;
     endVertex.setPositionX(endPosX);
     endVertex.setPositionY(endPosY);
@@ -60,10 +64,10 @@ int LeeAlgorithm::performSearch() {
         currentVertex = backtrackLevel(x, currentVertex);
     }
 
+    //returns the currentAdditive - 1, which represents the distance from start to end that we found
     return currentAdditive - 1;
 
 }
-
 //Adds a wave (aka marks the vertexes) around the desired node with the desired level, and adds all the "waved" vertexes
 //to the temp list for use in the next wave
 bool LeeAlgorithm::addWave(vector<Vertex> *vertexList, int indexX, int indexY, int level) {
@@ -117,7 +121,6 @@ bool LeeAlgorithm::addWave(vector<Vertex> *vertexList, int indexX, int indexY, i
     }
     return false;
 }
-
 //this function will pass in a vertex and a current level, and then mark the next lowest value vertex around
 //it as part of the path and return it. So we will be able to start at the end and work our way back to zero.
 Vertex LeeAlgorithm::backtrackLevel(int currentLevel, Vertex currentVertex) {
@@ -158,4 +161,35 @@ Vertex LeeAlgorithm::backtrackLevel(int currentLevel, Vertex currentVertex) {
         }
     }
     return currentVertex;
+}
+
+//prints in the same way as main driver, to check the progress of the algorithm as it runs
+void LeeAlgorithm::printProgress() {
+    cout << endl << "Maze: " << endl;
+    for (int x = 0; x < numColumns; x++) {
+        cout << "---";
+    }
+    cout << "----" << endl;
+
+    for (int x = 0; x < numRows; x++) {
+        cout << "| ";
+        for (int y = 0; y < numColumns; y++)
+            if (strcmp(Maze[x][y].c_str(), "O") == 0)
+                cout << "   ";
+            else {
+                if (Maze[x][y].size() == 1)
+                    cout << " " << Maze[x][y] << " ";
+                else if (Maze[x][y].size() == 2)
+                    cout << " " << Maze[x][y];
+                else
+                    cout << Maze[x][y];
+            }
+        cout << " |" << endl;
+    }
+
+    for (int x = 0; x < numColumns; x++) {
+        cout << "---";
+    }
+    cout << "----" << endl;
+
 }

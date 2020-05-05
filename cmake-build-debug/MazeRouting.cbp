@@ -86,6 +86,12 @@
 		<Unit filename="/Users/samwalsh/Desktop/Algorithms/MazeRouting/LeeAlgorithm.h">
 			<Option target="MazeRouting"/>
 		</Unit>
+		<Unit filename="/Users/samwalsh/Desktop/Algorithms/MazeRouting/RecursiveBacktracking.cpp">
+			<Option target="MazeRouting"/>
+		</Unit>
+		<Unit filename="/Users/samwalsh/Desktop/Algorithms/MazeRouting/RecursiveBacktracking.h">
+			<Option target="MazeRouting"/>
+		</Unit>
 		<Unit filename="/Users/samwalsh/Desktop/Algorithms/MazeRouting/Vertex.h">
 			<Option target="MazeRouting"/>
 		</Unit>
@@ -96,6 +102,12 @@
 			<Option target="MazeRouting"/>
 		</Unit>
 		<Unit filename="/Users/samwalsh/Desktop/Algorithms/MazeRouting/mainDriver.h">
+			<Option target="MazeRouting"/>
+		</Unit>
+		<Unit filename="/Users/samwalsh/Desktop/Algorithms/MazeRouting/userInterface.cpp">
+			<Option target="MazeRouting"/>
+		</Unit>
+		<Unit filename="/Users/samwalsh/Desktop/Algorithms/MazeRouting/userInterface.h">
 			<Option target="MazeRouting"/>
 		</Unit>
 		<Unit filename="/Users/samwalsh/Desktop/Algorithms/MazeRouting/CMakeLists.txt">
